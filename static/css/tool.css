@@ -1,0 +1,424 @@
+.footer-menu
+{
+	width: 100%;
+	background-color: rgb(0 0 0 / 68%);
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+}
+
+.set-name
+{
+	background-color: #9f6f6f;
+}
+
+.set-name-2
+{
+	background-color: #a58a8a;
+}
+
+
+
+.pair-window
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	height: 120px;
+	width: 	50%;
+	background-color: #000;
+}
+
+.create-box
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.pair-window img
+{
+	height: 80px;
+}
+
+.pair-img
+{
+	float:left;
+}
+
+
+
+.exists
+{
+	color: 	#f0f8ff;
+}
+
+.nothing
+{
+	color: 	#ff7f50;
+}
+
+.zozo-id
+{
+	border:solid 1px #000 ;
+	height: 50%;
+	width: 100px;
+}
+
+.download-reserve
+{
+	display: none;
+}
+
+.refresh-check
+{
+	display: none;
+	
+}
+
+.delete-data
+{
+	display: none;
+}
+
+
+.tool-category
+{
+	border:solid 1px #000 ;
+	height: 50%;
+	width: 100px;
+}
+
+
+#tool_li
+{
+	text-align: left;
+	width: 40%;
+	line-height: 20px;
+	right: -150px;
+	position:absolute;
+}
+
+#copy_btn
+{
+	width: 50px;
+	float: 	left;
+}
+
+.tool-data-window
+{
+	width: 150px;
+	float: left;
+	padding-left: 20px;
+}
+
+.sort_ul > li > .sortable_chd > li {
+    float: left;
+    height: 70px;
+    line-height: 26px;
+}
+
+.is-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+
+.left-menu
+{
+	background-color: rgb(0 0 0 / 68%);
+	width: 250px;
+  	position: fixed;
+  	top: 0px;
+  	height: 100%;
+  	padding: 10px;
+
+}
+.tmemo
+{
+	color: 	#000;
+	padding: 5px;
+}
+
+.left-menu-2
+{
+	background-color: rgb(0 0 0 / 68%);
+	width: 350px;
+  	position: fixed;
+  	top: 0px;
+  	left: 250px;
+  	height: 100%;
+  	padding: 10px;
+  	color: 	#FFF;
+
+}
+
+.left-menu-2 a
+{
+ color:#FFF;
+}
+.close-bar
+{
+	background-color: rgb(0 0 0 / 68%);
+
+	position: fixed;
+  	bottom: 0px;
+  	height: 80px;
+  	color: 	#FFF;
+  	width: 100%;
+  	text-align: center;
+}
+
+.l-window-top
+{
+	width: 100%;
+	height: 30%;
+	color: #FFF;
+}
+
+.l-window-2-top
+{
+	width: 100%;
+	height: 50%;
+	color: #FFF;
+}
+
+.item-link
+{
+	color: #5b9ef1;
+}
+
+img.thumbnail-img
+{
+	width: 100px;
+ 
+}
+
+.open-data
+{
+	display: none;
+}
+.log-area
+{
+	color: 	red;
+}
+
+.t-box
+{
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+}
+
+.t-data
+{
+	width: 50px;
+
+}
+
+.t-data-2
+{
+	width: 200px;
+
+}
+
+.t-data-3
+{
+	width: 150px;
+
+}
+
+.t-title
+{
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "メイリオ", "Lucida Grande", Verdana, sans-serif;
+}
+
+.warning
+{
+	  animation: flash 1s linear infinite;
+	color: red;
+	font-size: 20px;
+}
+
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.btn-c
+{
+	background-color: #7fff7f;
+}
+
+.btn-s
+{
+	background-color: #7fbfff;
+}
+
+.btn-a
+{
+	background-color: #ffbf7f;
+}
+
+.sales-item-data
+{
+
+}
+
+#zozo-item-modal {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.cType
+{
+	display: none;
+}
+
+
+.favo-panel
+{
+	color: #FFF;
+	width: 300px;
+	height: 410px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color:rgba(0, 0, 0, 0.68); 
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 9999;
+}
+
+.favo-memo
+{
+	color: #000;
+}
+
+.reserve-shop
+{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	z-index: 9999;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #6fa1ff;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 100px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.item-window
+{
+	width: 1800px;
+}
+
+.change-btn
+{
+		 font-size: 18px;
+  display: inline-block;
+  padding: 0.5em 1em 0.3em;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #0099ff;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+ 
+}
+
+
+textarea.item-descaription  {
+	margin-top: 20px;
+	padding: 10px;
+	resize: none;
+	width:900px;
+	height:400px;
+}
+
+.timesale-window
+{
+	margin:15px;
+	padding: 20px;
+	border: 0.5px solid rgba(45 45 45 / 25%);
+	border-radius: 5px;
+}
+
+.sale-input
+{
+	margin-top: 3px;	
+	font-size: 17px;
+	padding: 5px;
+}
+
+
+.add-code
+{
+	font-size: 4px;
+	width: 30px;
+	height: 30px;
+
+}
+
+.add-c-black
+{
+	background-color: #000000;
+}
+
+
+.add-c-red
+{
+	background-color: #e73656;
+}
+
+.add-c-yellow
+{
+	background-color: #FE9B00;
+}
+
+.add-c-green
+{
+	background-color: #00A676;
+}
+
+.add-c-pink
+{
+	background-color: #FC7BB4;
+}
+
+.font-w
+{
+
+
+	width: 30px;
+	height: 30px;
+}
+
+.w-text
+{
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+
+}
